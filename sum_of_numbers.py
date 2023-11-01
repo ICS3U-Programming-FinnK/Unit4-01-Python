@@ -10,11 +10,11 @@ def main():
     loop_counter = 0
     sum = 0
 
-    # get the user number as a string
+    # get the user to input number as a string
     user_number = int(input("Enter a positive number: "))
     print("")
 
-    # calculate the sum of all numbers from 0 to user number
+    # terminal will calculate the sum of all numbers from 0 to user number
     while loop_counter <= user_number:
         sum = sum + loop_counter
         print("Tracking {0} times through loop.".format(loop_counter))
